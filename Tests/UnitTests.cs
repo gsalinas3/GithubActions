@@ -118,7 +118,7 @@ public class Power
 	[TestMethod]
 	public void Power_Valid_Salinas()
 	{
-		Assert.AreEqual(9, Program.Power("2", "3"));
+		Assert.AreEqual(8, Program.Power("2", "3"));
 		Assert.AreEqual(1, Program.Power("1", "5"));
 		Assert.AreEqual(100, Program.Power("10", "2"));
 	}
